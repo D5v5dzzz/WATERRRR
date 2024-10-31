@@ -1,0 +1,51 @@
+if game.PlaceId == 10449761463 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "💧Water Hub💧 | 💧The Strongest Battlegrounds💧", HidePremium = false, IntroText = "💧Water Hub💧", SaveConfig = true, ConfigFolder = "WaterConfig"})
+local FarmTab = Window:MakeTab({
+	Name = "💧Scripts💧",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Gojo Script💧 (Credits To IamAnAgent)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VjSbP1za"))()
+  	end    
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Mahito Script💧 (Credits To GoldenHead)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
+  	end    
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Shinjuku Yuji Script💧 (Credits To GoldenHead)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Yuji%20early%20access'))()
+  	end    
+})
+ 
+ FarmTab:AddButton({
+	Name = "💧Toji Script💧 (Credits To GoldenHead)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/VQnyWP5D'))()
+  	end    
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Jun Script💧(Credits To NOVAHITTA)",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+  	end    
+})
+ 
+ 
+ 
+ 
+ 
+ 
+end
+OrionLib:Init()
